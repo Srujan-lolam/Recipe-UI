@@ -7,18 +7,25 @@ const RecipeForm: React.FC = () => {
       <form  className='form-container' action='./' method='post'>
         <label htmlFor="recipe-name">Recipe Name</label>
         <input className="inputelement" id="recipe-name" type="text" placeholder='Enter recipe name' required />
+        <input type="file" placeholder='Upload the image' className='inputelement' id='recipe-img' />
 
         <label htmlFor="recipe-description">Recipe Description</label>
-        <input className="inputelement" id="recipe-description" type="text" placeholder='Enter recipe description' required />
+        <textarea className="inputelement" id="recipe-description" placeholder='Enter the description' required />
 
         <label htmlFor="recipe-steps">Recipe Steps</label>
         <textarea className="inputelement" id="recipe-steps" placeholder='Enter the steps' required />
-
         <label htmlFor="recipe-cuisine">Cuisine</label>
-        <input className="inputelement" id="recipe-cuisine" type="text" placeholder='Enter cuisine' required />
+        <select className="inputelement" id="recipe-cuisine" required>
+          <option value="italian">Italian</option>
+          <option value="indian">Indian</option>
+          <option value="chinese">Chinese</option>
+        </select>
 
         <label htmlFor="recipe-category">Category</label>
-        <input className="inputelement" id="recipe-category" type="text" placeholder='Enter category' required />
+        <select className="inputelement" id="recipe-category"  required>
+          <option value="veg">Veg</option>
+          <option value="non-veg">Non-veg</option>
+        </select>
 
         <label htmlFor="recipe-tags">Tags</label>
         <input className="inputelement" id="recipe-tags" type="text" placeholder='Enter tags' required />

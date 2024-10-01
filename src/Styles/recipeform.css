@@ -1,5 +1,5 @@
 .form-container{
-    width: 400px;
+    width: 500px;
     margin: 7px auto;
     display: flex;
     flex-direction: column;
@@ -18,7 +18,7 @@
     padding: 15px;
     border-radius: 8px;
     padding: 10px;
-    height: 20px;
+
 }
 
 #submit{
