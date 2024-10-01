@@ -1,254 +1,302 @@
 {
-    "recipes": [
-      {
-        "id": "1",
-        "title": "Spaghetti Carbonara",
-        "description": "A classic Italian pasta dish made with eggs, cheese, pancetta, and pepper.",
-        "steps": [
-          "Cook spaghetti according to package instructions.",
-          "In a bowl, mix eggs and cheese.",
-          "Fry pancetta until crispy.",
-          "Combine pasta with pancetta and egg mixture.",
-          "Serve with extra cheese and pepper."
-        ],
-        "cuisine": "Italian",
-        "category": "Main Course",
-        "tags": ["pasta", "quick", "comfort food"],
-        "time": "2024-09-01T12:00:00Z",
-        "difficulty_level": "Easy",
-        "dietary_restrictions": "Contains gluten, dairy",
-        "authorId": "auth01",
-        "rating": 4.5
-      },
-      {
-        "id": "2",
-        "title": "Vegetable Stir Fry",
-        "description": "A quick and healthy stir fry with seasonal vegetables.",
-        "steps": [
-          "Chop vegetables of your choice.",
-          "Heat oil in a pan.",
-          "Stir fry vegetables for 5-7 minutes.",
-          "Add soy sauce and serve with rice."
-        ],
-        "cuisine": "Asian",
-        "category": "Main Course",
-        "tags": ["vegan", "gluten-free", "quick"],
-        "time": "2024-09-02T12:00:00Z",
-        "difficulty_level": "Easy",
-        "dietary_restrictions": "Vegan, gluten-free",
-        "authorId": "auth02",
-        "rating": 4.0
-      },
-      {
-        "id": "3",
-        "title": "Chicken Tikka Masala",
-        "description": "Tender chicken in a spiced tomato sauce, served with rice.",
-        "steps": [
-          "Marinate chicken in yogurt and spices.",
-          "Grill or bake the chicken until cooked.",
-          "Prepare the sauce with tomatoes and spices.",
-          "Combine chicken with sauce and simmer.",
-          "Serve with rice or naan."
-        ],
-        "cuisine": "Indian",
-        "category": "Main Course",
-        "tags": ["spicy", "comfort food", "meat"],
-        "time": "2024-09-03T12:00:00Z",
-        "difficulty_level": "Medium",
-        "dietary_restrictions": "Contains dairy",
-        "authorId": "auth03",
-        "rating": 4.7
-      },
-      {
-        "id": "4",
-        "title": "Quinoa Salad",
-        "description": "A refreshing salad with quinoa, cucumbers, and feta cheese.",
-        "steps": [
-          "Cook quinoa according to package instructions.",
-          "Chop cucumbers and tomatoes.",
-          "Mix quinoa with vegetables and feta.",
-          "Dress with olive oil and lemon juice."
-        ],
-        "cuisine": "Mediterranean",
-        "category": "Salad",
-        "tags": ["healthy", "gluten-free", "light"],
-        "time": "2024-09-04T12:00:00Z",
-        "difficulty_level": "Easy",
-        "dietary_restrictions": "Contains dairy",
-        "authorId": "auth04",
-        "rating": 4.3
-      },
-      {
-        "id": "5",
-        "title": "Beef Tacos",
-        "description": "Flavorful beef tacos topped with fresh salsa.",
-        "steps": [
-          "Cook ground beef with taco seasoning.",
-          "Warm taco shells.",
-          "Fill shells with beef and toppings.",
-          "Serve with salsa and avocado."
-        ],
-        "cuisine": "Mexican",
-        "category": "Main Course",
-        "tags": ["spicy", "meat", "easy"],
-        "time": "2024-09-05T12:00:00Z",
-        "difficulty_level": "Easy",
-        "dietary_restrictions": "Contains gluten",
-        "authorId": "auth05",
-        "rating": 4.6
-      },
-      {
-        "id": "6",
-        "title": "Chocolate Chip Cookies",
-        "description": "Classic cookies loaded with chocolate chips.",
-        "steps": [
-          "Preheat oven to 350°F.",
-          "Mix butter, sugars, and vanilla.",
-          "Add eggs and mix well.",
-          "Stir in flour and chocolate chips.",
-          "Bake for 10-12 minutes."
-        ],
-        "cuisine": "American",
-        "category": "Dessert",
-        "tags": ["baking", "sweet", "cookies"],
-        "time": "2024-09-06T12:00:00Z",
-        "difficulty_level": "Easy",
-        "dietary_restrictions": "Contains gluten, dairy",
-        "authorId": "auth06",
-        "rating": 4.8
-      },
-      {
-        "id": "7",
-        "title": "Greek Yogurt Parfait",
-        "description": "A healthy breakfast layered with yogurt, fruit, and granola.",
-        "steps": [
-          "Layer Greek yogurt with fresh fruit.",
-          "Add a layer of granola.",
-          "Repeat layers and serve immediately."
-        ],
-        "cuisine": "Greek",
-        "category": "Breakfast",
-        "tags": ["healthy", "quick", "breakfast"],
-        "time": "2024-09-07T12:00:00Z",
-        "difficulty_level": "Easy",
-        "dietary_restrictions": "Contains dairy",
-        "authorId": "auth07",
-        "rating": 4.2
-      },
-      {
-        "id": "8",
-        "title": "Lentil Soup",
-        "description": "A hearty soup made with lentils and vegetables.",
-        "steps": [
-          "Sauté onions, carrots, and celery.",
-          "Add lentils and vegetable broth.",
-          "Simmer until lentils are tender.",
-          "Season and serve hot."
-        ],
-        "cuisine": "American",
-        "category": "Soup",
-        "tags": ["vegan", "healthy", "comfort food"],
-        "time": "2024-09-08T12:00:00Z",
-        "difficulty_level": "Easy",
-        "dietary_restrictions": "Vegan, gluten-free",
-        "authorId": "auth08",
-        "rating": 4.4
-      },
-      {
-        "id": "9",
-        "title": "Caprese Salad",
-        "description": "A fresh salad made with tomatoes, mozzarella, and basil.",
-        "steps": [
-          "Slice tomatoes and mozzarella.",
-          "Layer with fresh basil leaves.",
-          "Drizzle with olive oil and balsamic vinegar."
-        ],
-        "cuisine": "Italian",
-        "category": "Salad",
-        "tags": ["vegetarian", "fresh", "light"],
-        "time": "2024-09-09T12:00:00Z",
-        "difficulty_level": "Easy",
-        "dietary_restrictions": "Contains dairy",
-        "authorId": "auth09",
-        "rating": 4.1
-      },
-      {
-        "id": "10",
-        "title": "Pancakes",
-        "description": "Fluffy pancakes served with syrup and berries.",
-        "steps": [
-          "Mix flour, sugar, baking powder, and salt.",
-          "Add milk, egg, and melted butter.",
-          "Cook on a griddle until bubbles form.",
-          "Serve with syrup and fresh berries."
-        ],
-        "cuisine": "American",
-        "category": "Breakfast",
-        "tags": ["breakfast", "sweet", "easy"],
-        "time": "2024-09-10T12:00:00Z",
-        "difficulty_level": "Easy",
-        "dietary_restrictions": "Contains gluten, dairy",
-        "authorId": "auth10",
-        "rating": 4.9
-      }
-    ],
-  
-    "admin": {
-      "id": "admin01",
-      "first_name": "Alice",
-      "last_name": "Smith",
-      "email": "alice.smith@example.com",
-      "image": "https://randomuser.me/api/portraits/women/1.jpg",
-      "country": "USA",
-      "region": "California"
+  "recipes": [
+    {
+      "id": "1",
+      "title": "Spaghetti Carbonara",
+      "description": "A classic Italian pasta dish made with eggs, cheese, pancetta, and pepper.",
+      "steps": [
+        "Cook spaghetti according to package instructions.",
+        "In a bowl, mix eggs and cheese.",
+        "Fry pancetta until crispy.",
+        "Combine pasta with pancetta and egg mixture.",
+        "Serve with extra cheese and pepper."
+      ],
+      "cuisine": "Italian",
+      "category": "Main Course",
+      "tags": [
+        "pasta",
+        "quick",
+        "comfort food"
+      ],
+      "time": "2024-09-01T12:00:00Z",
+      "difficulty_level": "Easy",
+      "dietary_restrictions": "Contains gluten, dairy",
+      "authorId": "auth01",
+      "rating": 4.5
     },
-  
-    "users": [
-      {
-        "id": "user01",
-        "first_name": "John",
-        "last_name": "Doe",
-        "email": "john.doe@example.com",
-        "image": "https://randomuser.me/api/portraits/men/1.jpg",
-        "country": "Canada",
-        "region": "Ontario"
-      },
-      {
-        "id": "user02",
-        "first_name": "Emily",
-        "last_name": "Johnson",
-        "email": "emily.johnson@example.com",
-        "image": "https://randomuser.me/api/portraits/women/2.jpg",
-        "country": "UK",
-        "region": "London"
-      },
-      {
-        "id": "user03",
-        "first_name": "Michael",
-        "last_name": "Brown",
-        "email": "michael.brown@example.com",
-        "image": "https://randomuser.me/api/portraits/men/2.jpg",
-        "country": "Australia",
-        "region": "Queensland"
-      },
-      {
-        "id": "user04",
-        "first_name": "Sarah",
-        "last_name": "Davis",
-        "email": "sarah.davis@example.com",
-        "image": "https://randomuser.me/api/portraits/women/3.jpg",
-        "country": "New Zealand",
-        "region": "Auckland"
-      },
-      {
-        "id": "user05",
-        "first_name": "David",
-        "last_name": "Wilson",
-        "email": "david.wilson@example.com",
-        "image": "https://randomuser.me/api/portraits/men/3.jpg",
-        "country": "Germany",
-        "region": "Bavaria"
-      }
-    ]
-  }
-  
+    {
+      "id": "2",
+      "title": "Vegetable Stir Fry",
+      "description": "A quick and healthy stir fry with seasonal vegetables.",
+      "steps": [
+        "Chop vegetables of your choice.",
+        "Heat oil in a pan.",
+        "Stir fry vegetables for 5-7 minutes.",
+        "Add soy sauce and serve with rice."
+      ],
+      "cuisine": "Asian",
+      "category": "Main Course",
+      "tags": [
+        "vegan",
+        "gluten-free",
+        "quick"
+      ],
+      "time": "2024-09-02T12:00:00Z",
+      "difficulty_level": "Easy",
+      "dietary_restrictions": "Vegan, gluten-free",
+      "authorId": "auth02",
+      "rating": 4
+    },
+    {
+      "id": "3",
+      "title": "Chicken Tikka Masala",
+      "description": "Tender chicken in a spiced tomato sauce, served with rice.",
+      "steps": [
+        "Marinate chicken in yogurt and spices.",
+        "Grill or bake the chicken until cooked.",
+        "Prepare the sauce with tomatoes and spices.",
+        "Combine chicken with sauce and simmer.",
+        "Serve with rice or naan."
+      ],
+      "cuisine": "Indian",
+      "category": "Main Course",
+      "tags": [
+        "spicy",
+        "comfort food",
+        "meat"
+      ],
+      "time": "2024-09-03T12:00:00Z",
+      "difficulty_level": "Medium",
+      "dietary_restrictions": "Contains dairy",
+      "authorId": "auth03",
+      "rating": 4.7
+    },
+    {
+      "id": "4",
+      "title": "Quinoa Salad",
+      "description": "A refreshing salad with quinoa, cucumbers, and feta cheese.",
+      "steps": [
+        "Cook quinoa according to package instructions.",
+        "Chop cucumbers and tomatoes.",
+        "Mix quinoa with vegetables and feta.",
+        "Dress with olive oil and lemon juice."
+      ],
+      "cuisine": "Mediterranean",
+      "category": "Salad",
+      "tags": [
+        "healthy",
+        "gluten-free",
+        "light"
+      ],
+      "time": "2024-09-04T12:00:00Z",
+      "difficulty_level": "Easy",
+      "dietary_restrictions": "Contains dairy",
+      "authorId": "auth04",
+      "rating": 4.3
+    },
+    {
+      "id": "5",
+      "title": "Beef Tacos",
+      "description": "Flavorful beef tacos topped with fresh salsa.",
+      "steps": [
+        "Cook ground beef with taco seasoning.",
+        "Warm taco shells.",
+        "Fill shells with beef and toppings.",
+        "Serve with salsa and avocado."
+      ],
+      "cuisine": "Mexican",
+      "category": "Main Course",
+      "tags": [
+        "spicy",
+        "meat",
+        "easy"
+      ],
+      "time": "2024-09-05T12:00:00Z",
+      "difficulty_level": "Easy",
+      "dietary_restrictions": "Contains gluten",
+      "authorId": "auth05",
+      "rating": 4.6
+    },
+    {
+      "id": "6",
+      "title": "Chocolate Chip Cookies",
+      "description": "Classic cookies loaded with chocolate chips.",
+      "steps": [
+        "Preheat oven to 350°F.",
+        "Mix butter, sugars, and vanilla.",
+        "Add eggs and mix well.",
+        "Stir in flour and chocolate chips.",
+        "Bake for 10-12 minutes."
+      ],
+      "cuisine": "American",
+      "category": "Dessert",
+      "tags": [
+        "baking",
+        "sweet",
+        "cookies"
+      ],
+      "time": "2024-09-06T12:00:00Z",
+      "difficulty_level": "Easy",
+      "dietary_restrictions": "Contains gluten, dairy",
+      "authorId": "auth06",
+      "rating": 4.8
+    },
+    {
+      "id": "7",
+      "title": "Greek Yogurt Parfait",
+      "description": "A healthy breakfast layered with yogurt, fruit, and granola.",
+      "steps": [
+        "Layer Greek yogurt with fresh fruit.",
+        "Add a layer of granola.",
+        "Repeat layers and serve immediately."
+      ],
+      "cuisine": "Greek",
+      "category": "Breakfast",
+      "tags": [
+        "healthy",
+        "quick",
+        "breakfast"
+      ],
+      "time": "2024-09-07T12:00:00Z",
+      "difficulty_level": "Easy",
+      "dietary_restrictions": "Contains dairy",
+      "authorId": "auth07",
+      "rating": 4.2
+    },
+    {
+      "id": "8",
+      "title": "Lentil Soup",
+      "description": "A hearty soup made with lentils and vegetables.",
+      "steps": [
+        "Sauté onions, carrots, and celery.",
+        "Add lentils and vegetable broth.",
+        "Simmer until lentils are tender.",
+        "Season and serve hot."
+      ],
+      "cuisine": "American",
+      "category": "Soup",
+      "tags": [
+        "vegan",
+        "healthy",
+        "comfort food"
+      ],
+      "time": "2024-09-08T12:00:00Z",
+      "difficulty_level": "Easy",
+      "dietary_restrictions": "Vegan, gluten-free",
+      "authorId": "auth08",
+      "rating": 4.4
+    },
+    {
+      "id": "9",
+      "title": "Caprese Salad",
+      "description": "A fresh salad made with tomatoes, mozzarella, and basil.",
+      "steps": [
+        "Slice tomatoes and mozzarella.",
+        "Layer with fresh basil leaves.",
+        "Drizzle with olive oil and balsamic vinegar."
+      ],
+      "cuisine": "Italian",
+      "category": "Salad",
+      "tags": [
+        "vegetarian",
+        "fresh",
+        "light"
+      ],
+      "time": "2024-09-09T12:00:00Z",
+      "difficulty_level": "Easy",
+      "dietary_restrictions": "Contains dairy",
+      "authorId": "auth09",
+      "rating": 4.1
+    },
+    {
+      "id": "10",
+      "title": "Pancakes",
+      "description": "Fluffy pancakes served with syrup and berries.",
+      "steps": [
+        "Mix flour, sugar, baking powder, and salt.",
+        "Add milk, egg, and melted butter.",
+        "Cook on a griddle until bubbles form.",
+        "Serve with syrup and fresh berries."
+      ],
+      "cuisine": "American",
+      "category": "Breakfast",
+      "tags": [
+        "breakfast",
+        "sweet",
+        "easy"
+      ],
+      "time": "2024-09-10T12:00:00Z",
+      "difficulty_level": "Easy",
+      "dietary_restrictions": "Contains gluten, dairy",
+      "authorId": "auth10",
+      "rating": 4.9
+    },
+    {
+      "id": "a166",
+      "title": "Chicken dum biryani",
+      "description": "sd",
+      "steps": "sd",
+      "cuisine": "",
+      "category": "",
+      "tags": "chicken,dum biryani,hyderabadi biryani,",
+      "time": "120",
+      "difficulty_level": ""
+    }
+  ],
+  "admin": {
+    "id": "admin01",
+    "first_name": "Alice",
+    "last_name": "Smith",
+    "email": "alice.smith@example.com",
+    "image": "https://randomuser.me/api/portraits/women/1.jpg",
+    "country": "USA",
+    "region": "California"
+  },
+  "users": [
+    {
+      "id": "user01",
+      "first_name": "John",
+      "last_name": "Doe",
+      "email": "john.doe@example.com",
+      "image": "https://randomuser.me/api/portraits/men/1.jpg",
+      "country": "Canada",
+      "region": "Ontario"
+    },
+    {
+      "id": "user02",
+      "first_name": "Emily",
+      "last_name": "Johnson",
+      "email": "emily.johnson@example.com",
+      "image": "https://randomuser.me/api/portraits/women/2.jpg",
+      "country": "UK",
+      "region": "London"
+    },
+    {
+      "id": "user03",
+      "first_name": "Michael",
+      "last_name": "Brown",
+      "email": "michael.brown@example.com",
+      "image": "https://randomuser.me/api/portraits/men/2.jpg",
+      "country": "Australia",
+      "region": "Queensland"
+    },
+    {
+      "id": "user04",
+      "first_name": "Sarah",
+      "last_name": "Davis",
+      "email": "sarah.davis@example.com",
+      "image": "https://randomuser.me/api/portraits/women/3.jpg",
+      "country": "New Zealand",
+      "region": "Auckland"
+    },
+    {
+      "id": "user05",
+      "first_name": "David",
+      "last_name": "Wilson",
+      "email": "david.wilson@example.com",
+      "image": "https://randomuser.me/api/portraits/men/3.jpg",
+      "country": "Germany",
+      "region": "Bavaria"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 .form-container{
     width: 500px;
-    margin: 7px auto;
+    margin: 20px auto;
     display: flex;
     flex-direction: column;
     padding: 40px;
@@ -23,8 +23,10 @@
 
 #submit{
     padding: 8px;
-    background-color: rgb(106, 233, 106);
+    background-color: #4CAF50;
     border-radius: 5px;
     font-size: large;
     font-weight: 500;
+    color: aliceblue;
+    border: none;
 }
