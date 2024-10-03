@@ -5,9 +5,11 @@ import RecipeCard from './RecipeCard';
 const Toprated: React.FC = () => {
     const [recipes,setRecipes] = useState([])
     const fetchData = async () =>{
-        const response = await fetch("http://localhost:3000/recipes");
+        const response = await fetch("http://localhost:8081/recipes/1");
         const temp = await response.json();
-        setRecipes(temp);
+        const recipesArray = [temp,temp,temp,temp,temp]
+        setRecipes(recipesArray);
+        console.log(recipes)
     }
     useEffect(() => {
         fetchData();
@@ -21,6 +23,8 @@ const Toprated: React.FC = () => {
     <div className="recipe-grid">
     {recipes.map((recipe, index) => (
         <RecipeCard recipe={recipe} key={index} />
+       
+        
     ))}
     </div>
 </section>
