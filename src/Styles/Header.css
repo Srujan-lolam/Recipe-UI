@@ -50,14 +50,19 @@
     color: #333;
     margin-left: 10px;
   }
-  
+  .header__createButton{
+    text-decoration: none;
+    /* margin-left:200px ; */
+    padding: 8px;
+    
+  }
   .header__auth button {
     padding: 10px 20px;
     background-color: #edb97d;
     color: white;
     font-size: 20px;
     border: none;
-    border-radius: 20px;
+    border-radius: 12px;
     cursor: pointer;
     transition: background-color 0.3s;
   }

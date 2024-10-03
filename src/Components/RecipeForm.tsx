@@ -1,8 +1,11 @@
 import React from 'react';
 import '../Styles/recipeform.css';
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
+import { FaPlusCircle } from 'react-icons/fa';
 
 const RecipeForm: React.FC = () => {
+  const [isFormVisible,setIsFormVisible] = useState(false)
   const [formData,setFormData] = useState({
     title : "",
     description : "",
@@ -26,14 +29,18 @@ const RecipeForm: React.FC = () => {
     })
       .then((response) => response.json())
       .then((data) => {
+        setIsFormVisible(false);
         console.log("Success:", data);
       })
       .catch((error) => {
         console.error("Error:", error);
       });
   };
+  const handleCreateButton = () => {
+    setIsFormVisible(true);
+  }
+
   const handleChange = (e) => {
-    e.preventDefault()
     const {name,value} = e.target
     setFormData((prevData) => ({
       ...prevData,
@@ -42,7 +49,12 @@ const RecipeForm: React.FC = () => {
   }
 
   return (
-    <div>
+    <>
+    <div className='header__createButton'>
+        <button onClick={handleCreateButton}><Link to = '/recipeform'>{<FaPlusCircle />}</Link></button>
+    </div>
+    {isFormVisible && (
+    <div id = 'my-modal'>
       <form  className='form-container' onSubmit={handleSubmit}>
         <label htmlFor="recipe-name">Recipe Name</label>
         <input className="inputelement" onChange={handleChange} id="recipe-name" value = {formData.title} type="text" placeholder='Enter recipe name' name='title' required />
@@ -79,11 +91,12 @@ const RecipeForm: React.FC = () => {
           <option value="hard">Hard</option>
         </select>
 
-        <button id="submit" type='submit'>
+        <button id = 'submit' type='submit'>
           Submit
         </button>
       </form>
-    </div>
+    </div> )}
+    </>
   );
 };
 

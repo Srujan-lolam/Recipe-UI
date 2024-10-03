@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import '../styles/header.css';
+import '../styles/Header.css';
 import logo from '../assets/logo.webp';
-import { FaSearch } from 'react-icons/fa';
+import { FaSearch,FaPlusCircle } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 const Header: React.FC = () => {
@@ -21,7 +21,9 @@ const Header: React.FC = () => {
         <input type="text" placeholder="Search for recipes..." />
         <FaSearch className="search-icon" />
       </div>
-      <button><Link to = '/recipeform'>Create a new Recipe</Link></button>
+      {/* <div className='header__createButton'>
+        <button><Link to = '/recipeform'>{<FaPlusCircle />}</Link></button>
+      </div> */}
       <div className="header__auth">
         <button onClick={handleAuthClick}>{isLoggedIn ? 'Logout' : 'Login'}</button>
       </div>
